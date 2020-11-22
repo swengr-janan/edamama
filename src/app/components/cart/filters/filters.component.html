@@ -1,0 +1,46 @@
+<div class="card filters">
+    <div class="card-header">
+        Search
+    </div>
+    <div class="card-body">
+        <form [formGroup]="searchForm">
+            <div class="form-group">
+                <input type="text" (keyup)="searchTerm.next($event)" formControlName="search" class="form-control">
+            </div>
+            <button class="btn btn-info btn-block btn-sm">Filter by Price</button>
+            <div *ngIf="loading">
+                <p class="search-message">Searching...</p>
+                <div class="lds-ellipsis">
+                    <div>
+                        <div>
+                            <div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+
+        <div *ngIf="searchResults">
+            <div class="results">
+                <div class="repo" *ngFor="let result of paginationElements | paginate: {itemsPerPage: 6, currentPage: page}">
+                    <div>
+                        <img loading="lazy" [attr.src]="result.owner.avatar.url"
+                        width="200"
+                        height="auto"
+                        alt="avatar">
+                        <h2>{{result.name}}</h2>
+                        <h1>asdasdasd</h1>
+                    </div>
+                </div>
+            </div>
+            <pagination-controls (pageChange) = "page = $event"></pagination-controls>
+        </div>
+
+        <div *ngIf="errorMessage" class="erroMessage">
+            <h2>Error</h2>
+            <p class="error">{{errorMessage}}</p>
+        </div>
+    </div>
+</div>

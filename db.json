@@ -1,0 +1,66 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Baby Crib",
+      "description": "A nursery room staple, this playpen highlights a comfortable bassinet to hold your little one gently when she’s asleep. It’s detailed with a mobile to encourage baby to bat at and be active, and cribsides made of mesh for maximum ventilation.",
+      "imageUrl": "https://ae01.alicdn.com/kf/HTB1D25ciEUIL1JjSZFrq6z3xFXaf/European-Portable-Crib-Baby-Comfortable-Cot-Baby-Crib-Soft-Bed-BB-Multifunctional-Bionic-Newborn-Baby-Artifact.jpg",
+      "price": 2999
+    },
+    {
+      "id": 2,
+      "name": "Glider",
+      "description": "This Mx Baby Rocker Infant to Toddler Baby Rocking Chair for Girls and Boys",
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/81iRSN5uBDL._SL1500_.jpg",
+      "price": 3999
+    },
+    {
+      "id": 3,
+      "name": "Baby Diaper",
+      "description": "The most comfortable diaper filled with features just right for each stage of growth. In a fitted design that fits all shapes and sizes it prevents leaks without you needing to adjust. Tailored to the round shape of bone structure of baby's body, so it roundly fits, but not overly tight. Because the back part is whole stretchable, it can fit well and causes no gap at back and fully prevent leakage. It touches delicate babies and it is very soothing to touch.",
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/61ltYn2nmXL._SL1200_.jpg",
+      "price": 499
+    },
+    {
+      "id": 4,
+      "name": "Baby Monitor",
+      "description": "Easy to Install IP Camera Three Antennas 1080P Security Wifi Indoor Two-way Voice Camera Wireless IR Night Vision CCTV Camera Smart HD 1080P P2P Night Vision IP Camera Wireless security with 3 antenna Baby Monitor ip cam CCTV.",
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/61mqlI1sCTL._AC_SY355_.jpg",
+      "price": 7999
+    },
+    {
+      "id": 5,
+      "name": "Baby Bath Tub",
+      "description": "Soft VelvetMaterial：With soft velvet and polyester fiberfilling, with super soft and breathable fabric and high resilience, will not irritate your baby's skin.",
+      "imageUrl": "https://globalstore.summerinfant.com/getmedia/5240a644-f0ca-4e32-98ca-9f97af39bda6/19390_IMG_S-BATH_3Q_SILO_1045x680.aspx?width=615&height=400",
+      "price": 1259
+    },
+    {
+      "id": 6,
+      "name": "Baby Feeding Pillow",
+      "description": "",
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/61XG3rgVM0L._SL1181_.jpg",
+      "price": 3000
+    }
+  ],
+  "cart": [
+    
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
